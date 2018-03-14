@@ -18,6 +18,8 @@ app.get("/", async (req, res) => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
+  console.log(name)
+
   //go to moongate
   await page.goto("https://moongate.cis.edu.hk");
 
@@ -39,7 +41,7 @@ app.get("/", async (req, res) => {
 
   //navigate to their profile
   page.click("table.weblist tr:first-child a");
-  await page.waitForNavigation();
+  await page.waitFor(1000);
 
   //navigate to their timetable
   page.click("div#tabspagespanel ul:nth-child(3) a");
@@ -47,7 +49,6 @@ app.get("/", async (req, res) => {
   
   //grab the table (doesn't work if you do your own timetable)
   await page.waitFor("#divsection_578FB9CE-05B6-4405-BCEE-07E689546B68 > div > table");
-  await page.screenshot({path: '/Users/kylehu/Desktop/test.png'});
   
   //need to use native js functions here because the ones provided in puppeteer don't seem to work
   const tableHTML = await page.evaluate((sel) => {
@@ -55,6 +56,11 @@ app.get("/", async (req, res) => {
     return table ? table.outerHTML : null;
   });
   res.send(tableHTML);
+  let file_contents = "Subject,Start Date,Start Time,End Date,End Time,All Day Event,Description,Location,Private\n"
+  const dayCycles = {
+    "a1": [{subject: "11 PE 2 1718", period: 1, teacher: "Stephen May", room_number: "001"}],
+    "a2": []
+  }
 
 });
 
