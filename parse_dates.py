@@ -24,6 +24,7 @@ def repl(sub):
         'pDes':'Product Design',
         'Eng X':'English X',
         'Chin X':'Chinese X',
+        'VisA':'Visual Art'
     }.get(sub, sub)
 
 def selecting_date(line):
