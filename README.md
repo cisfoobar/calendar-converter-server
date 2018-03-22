@@ -17,3 +17,4 @@ To start the server, run
 npm run start
 ```
 
+Then visit localhost:3000 in your bowser to retrieve timetable information.
