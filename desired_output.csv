@@ -1,140 +1,835 @@
-Subject, Start Date, All Day Event
-B1, 9/8/2017, True
-B1, 6/9/2018, True
-B1, 22/9/2018, True
-B1, 13/10/2018, True
-B1, 16/11/2018, True
-B1, 5/12/2018, True
-B1, 8/1/2017, True
-B1, 24/1/2017, True
-B1, 9/2/2017, True
-B1, 14/3/2017, True
-B1, 9/4/2017, True
-B1, 25/4/2017, True
-B1, 30/5/2017, True
-B1, 15/6/2017, True
-A2, 22/8/2017, True
-A2, 7/9/2018, True
-A2, 25/9/2018, True
-A2, 30/10/2018, True
-A2, 17/11/2018, True
-A2, 6/12/2018, True
-A2, 9/1/2017, True
-A2, 25/1/2017, True
-A2, 12/2/2017, True
-A2, 15/3/2017, True
-A2, 10/4/2017, True
-A2, 26/4/2017, True
-A2, 31/5/2017, True
-B2, 23/8/2017, True
-B2, 8/9/2018, True
-B2, 31/10/2018, True
-B2, 20/11/2018, True
-B2, 7/12/2018, True
-B2, 10/1/2017, True
-B2, 26/1/2017, True
-B2, 13/2/2017, True
-B2, 16/3/2017, True
-B2, 11/4/2017, True
-B2, 27/4/2017, True
-B2, 1/6/2017, True
-A3, 24/8/2017, True
-A3, 11/9/2018, True
-A3, 27/9/2018, True
-A3, 1/11/2018, True
-A3, 8/12/2018, True
-A3, 11/1/2017, True
-A3, 29/1/2017, True
-A3, 19/3/2017, True
-A3, 12/4/2017, True
-A3, 30/4/2017, True
-A3, 4/6/2017, True
-B3, 25/8/2017, True
-B3, 28/9/2018, True
-B3, 29/9/2018, True
-B3, 2/11/2018, True
-B3, 22/11/2018, True
-B3, 11/12/2018, True
-B3, 12/1/2017, True
-B3, 28/2/2017, True
-B3, 2/5/2017, True
-B3, 5/6/2017, True
-A4, 28/8/2017, True
-A4, 13/9/2018, True
-A4, 3/11/2018, True
-A4, 23/11/2018, True
-A4, 15/1/2017, True
-A4, 31/1/2017, True
-A4, 1/3/2017, True
-A4, 21/3/2017, True
-A4, 16/4/2017, True
-A4, 3/5/2017, True
-A4, 6/6/2017, True
-B4, 29/8/2017, True
-B4, 14/9/2018, True
-B4, 4/10/2018, True
-B4, 6/11/2018, True
-B4, 24/11/2018, True
-B4, 13/12/2018, True
-B4, 16/1/2017, True
-B4, 1/2/2017, True
-B4, 2/3/2017, True
-B4, 22/3/2017, True
-B4, 4/5/2017, True
-B4, 7/6/2017, True
-A5, 30/8/2017, True
-A5, 15/9/2018, True
-A5, 6/10/2018, True
-A5, 27/11/2018, True
-A5, 14/12/2018, True
-A5, 17/1/2017, True
-A5, 2/2/2017, True
-A5, 5/3/2017, True
-A5, 23/3/2017, True
-A5, 18/4/2017, True
-A5, 21/5/2017, True
-A5, 8/6/2017, True
-B5, 31/8/2017, True
-B5, 18/9/2018, True
-B5, 9/10/2018, True
-B5, 8/11/2018, True
-B5, 28/11/2018, True
-B5, 15/12/2018, True
-B5, 18/1/2017, True
-B5, 5/2/2017, True
-B5, 6/3/2017, True
-B5, 26/3/2017, True
-B5, 19/4/2017, True
-B5, 23/5/2017, True
-B5, 11/6/2017, True
-A6, 1/9/2018, True
-A6, 13/11/2018, True
-A6, 29/11/2018, True
-A6, 3/1/2017, True
-A6, 19/1/2017, True
-A6, 6/2/2017, True
-A6, 7/3/2017, True
-A6, 27/3/2017, True
-A6, 20/4/2017, True
-A6, 24/5/2017, True
-B6, 4/9/2018, True
-B6, 20/9/2018, True
-B6, 11/10/2018, True
-B6, 30/11/2018, True
-B6, 4/1/2017, True
-B6, 22/1/2017, True
-B6, 7/2/2017, True
-B6, 8/3/2017, True
-B6, 28/3/2017, True
-B6, 23/4/2017, True
-B6, 28/5/2017, True
-B6, 13/6/2017, True
-A7, 21/9/2018, True
-A7, 12/10/2018, True
-A7, 15/11/2018, True
-A7, 4/12/2018, True
-A7, 5/1/2017, True
-A7, 8/2/2017, True
-A7, 29/3/2017, True
-A7, 29/5/2017, True
-A7, 14/6/2017, True
+Subject, Start Date, End Date, All Day Event, Start Time, End Time, Location
+A1, 9/8/2017, 9/8/2017, True,,,
+A1, 6/9/2017, 6/9/2017, True,,,
+A1, 22/9/2017, 22/9/2017, True,,,
+A1, 13/10/2017, 13/10/2017, True,,,
+A1, 16/11/2017, 16/11/2017, True,,,
+A1, 5/12/2017, 5/12/2017, True,,,
+A1, 8/1/2018, 8/1/2018, True,,,
+A1, 24/1/2018, 24/1/2018, True,,,
+A1, 9/2/2018, 9/2/2018, True,,,
+A1, 14/3/2018, 14/3/2018, True,,,
+A1, 9/4/2018, 9/4/2018, True,,,
+A1, 25/4/2018, 25/4/2018, True,,,
+A1, 30/5/2018, 30/5/2018, True,,,
+A1, 15/6/2018, 15/6/2018, True,,,
+B1, 22/8/2017, 22/8/2017, True,,,
+B1, 7/9/2017, 7/9/2017, True,,,
+B1, 25/9/2017, 25/9/2017, True,,,
+B1, 30/10/2017, 30/10/2017, True,,,
+B1, 17/11/2017, 17/11/2017, True,,,
+B1, 6/12/2017, 6/12/2017, True,,,
+B1, 9/1/2018, 9/1/2018, True,,,
+B1, 25/1/2018, 25/1/2018, True,,,
+B1, 12/2/2018, 12/2/2018, True,,,
+B1, 15/3/2018, 15/3/2018, True,,,
+B1, 10/4/2018, 10/4/2018, True,,,
+B1, 26/4/2018, 26/4/2018, True,,,
+B1, 31/5/2018, 31/5/2018, True,,,
+A2, 23/8/2017, 23/8/2017, True,,,
+A2, 8/9/2017, 8/9/2017, True,,,
+A2, 31/10/2017, 31/10/2017, True,,,
+A2, 20/11/2017, 20/11/2017, True,,,
+A2, 7/12/2017, 7/12/2017, True,,,
+A2, 10/1/2018, 10/1/2018, True,,,
+A2, 26/1/2018, 26/1/2018, True,,,
+A2, 13/2/2018, 13/2/2018, True,,,
+A2, 16/3/2018, 16/3/2018, True,,,
+A2, 11/4/2018, 11/4/2018, True,,,
+A2, 27/4/2018, 27/4/2018, True,,,
+A2, 1/6/2018, 1/6/2018, True,,,
+B2, 24/8/2017, 24/8/2017, True,,,
+B2, 11/9/2017, 11/9/2017, True,,,
+B2, 27/9/2017, 27/9/2017, True,,,
+B2, 1/11/2017, 1/11/2017, True,,,
+B2, 8/12/2017, 8/12/2017, True,,,
+B2, 11/1/2018, 11/1/2018, True,,,
+B2, 29/1/2018, 29/1/2018, True,,,
+B2, 19/3/2018, 19/3/2018, True,,,
+B2, 12/4/2018, 12/4/2018, True,,,
+B2, 30/4/2018, 30/4/2018, True,,,
+B2, 4/6/2018, 4/6/2018, True,,,
+A3, 25/8/2017, 25/8/2017, True,,,
+A3, 28/9/2017, 28/9/2017, True,,,
+A3, 29/9/2017, 29/9/2017, True,,,
+A3, 2/11/2017, 2/11/2017, True,,,
+A3, 22/11/2017, 22/11/2017, True,,,
+A3, 11/12/2017, 11/12/2017, True,,,
+A3, 12/1/2018, 12/1/2018, True,,,
+A3, 28/2/2018, 28/2/2018, True,,,
+A3, 2/5/2018, 2/5/2018, True,,,
+A3, 5/6/2018, 5/6/2018, True,,,
+B3, 28/8/2017, 28/8/2017, True,,,
+B3, 13/9/2017, 13/9/2017, True,,,
+B3, 3/11/2017, 3/11/2017, True,,,
+B3, 23/11/2017, 23/11/2017, True,,,
+B3, 15/1/2018, 15/1/2018, True,,,
+B3, 31/1/2018, 31/1/2018, True,,,
+B3, 1/3/2018, 1/3/2018, True,,,
+B3, 21/3/2018, 21/3/2018, True,,,
+B3, 16/4/2018, 16/4/2018, True,,,
+B3, 3/5/2018, 3/5/2018, True,,,
+B3, 6/6/2018, 6/6/2018, True,,,
+A4, 29/8/2017, 29/8/2017, True,,,
+A4, 14/9/2017, 14/9/2017, True,,,
+A4, 4/10/2017, 4/10/2017, True,,,
+A4, 6/11/2017, 6/11/2017, True,,,
+A4, 24/11/2017, 24/11/2017, True,,,
+A4, 13/12/2017, 13/12/2017, True,,,
+A4, 16/1/2018, 16/1/2018, True,,,
+A4, 1/2/2018, 1/2/2018, True,,,
+A4, 2/3/2018, 2/3/2018, True,,,
+A4, 22/3/2018, 22/3/2018, True,,,
+A4, 4/5/2018, 4/5/2018, True,,,
+A4, 7/6/2018, 7/6/2018, True,,,
+B4, 30/8/2017, 30/8/2017, True,,,
+B4, 15/9/2017, 15/9/2017, True,,,
+B4, 6/10/2017, 6/10/2017, True,,,
+B4, 27/11/2017, 27/11/2017, True,,,
+B4, 14/12/2017, 14/12/2017, True,,,
+B4, 17/1/2018, 17/1/2018, True,,,
+B4, 2/2/2018, 2/2/2018, True,,,
+B4, 5/3/2018, 5/3/2018, True,,,
+B4, 23/3/2018, 23/3/2018, True,,,
+B4, 18/4/2018, 18/4/2018, True,,,
+B4, 21/5/2018, 21/5/2018, True,,,
+B4, 8/6/2018, 8/6/2018, True,,,
+A5, 31/8/2017, 31/8/2017, True,,,
+A5, 18/9/2017, 18/9/2017, True,,,
+A5, 9/10/2017, 9/10/2017, True,,,
+A5, 8/11/2017, 8/11/2017, True,,,
+A5, 28/11/2017, 28/11/2017, True,,,
+A5, 15/12/2017, 15/12/2017, True,,,
+A5, 18/1/2018, 18/1/2018, True,,,
+A5, 5/2/2018, 5/2/2018, True,,,
+A5, 6/3/2018, 6/3/2018, True,,,
+A5, 26/3/2018, 26/3/2018, True,,,
+A5, 19/4/2018, 19/4/2018, True,,,
+A5, 23/5/2018, 23/5/2018, True,,,
+A5, 11/6/2018, 11/6/2018, True,,,
+B5, 1/9/2017, 1/9/2017, True,,,
+B5, 13/11/2017, 13/11/2017, True,,,
+B5, 29/11/2017, 29/11/2017, True,,,
+B5, 3/1/2018, 3/1/2018, True,,,
+B5, 19/1/2018, 19/1/2018, True,,,
+B5, 6/2/2018, 6/2/2018, True,,,
+B5, 7/3/2018, 7/3/2018, True,,,
+B5, 27/3/2018, 27/3/2018, True,,,
+B5, 20/4/2018, 20/4/2018, True,,,
+B5, 24/5/2018, 24/5/2018, True,,,
+A6, 4/9/2017, 4/9/2017, True,,,
+A6, 20/9/2017, 20/9/2017, True,,,
+A6, 11/10/2017, 11/10/2017, True,,,
+A6, 30/11/2017, 30/11/2017, True,,,
+A6, 4/1/2018, 4/1/2018, True,,,
+A6, 22/1/2018, 22/1/2018, True,,,
+A6, 7/2/2018, 7/2/2018, True,,,
+A6, 8/3/2018, 8/3/2018, True,,,
+A6, 28/3/2018, 28/3/2018, True,,,
+A6, 23/4/2018, 23/4/2018, True,,,
+A6, 28/5/2018, 28/5/2018, True,,,
+A6, 13/6/2018, 13/6/2018, True,,,
+B6, 21/9/2017, 21/9/2017, True,,,
+B6, 12/10/2017, 12/10/2017, True,,,
+B6, 15/11/2017, 15/11/2017, True,,,
+B6, 4/12/2017, 4/12/2017, True,,,
+B6, 5/1/2018, 5/1/2018, True,,,
+B6, 8/2/2018, 8/2/2018, True,,,
+B6, 29/3/2018, 29/3/2018, True,,,
+B6, 29/5/2018, 29/5/2018, True,,,
+B6, 14/6/2018, 14/6/2018, True,,,
+Digital Design, 9/8/2017, 9/8/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 6/9/2017, 6/9/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 22/9/2017, 22/9/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 13/10/2017, 13/10/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 16/11/2017, 16/11/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 5/12/2017, 5/12/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 8/1/2018, 8/1/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 24/1/2018, 24/1/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 9/2/2018, 9/2/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 14/3/2018, 14/3/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 9/4/2018, 9/4/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 25/4/2018, 25/4/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 30/5/2018, 30/5/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 15/6/2018, 15/6/2018, False, 07:55 AM, 09:15 AM, 513
+Mathematics, 9/8/2017, 9/8/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 6/9/2017, 6/9/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 22/9/2017, 22/9/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 13/10/2017, 13/10/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 16/11/2017, 16/11/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 5/12/2017, 5/12/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 8/1/2018, 8/1/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 24/1/2018, 24/1/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 9/2/2018, 9/2/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 14/3/2018, 14/3/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 9/4/2018, 9/4/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 25/4/2018, 25/4/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 30/5/2018, 30/5/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 15/6/2018, 15/6/2018, False, 09:20 AM, 10:35 AM, 524
+Advisory, 9/8/2017, 9/8/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 6/9/2017, 6/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 22/9/2017, 22/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 13/10/2017, 13/10/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 16/11/2017, 16/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 5/12/2017, 5/12/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 8/1/2018, 8/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 24/1/2018, 24/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 9/2/2018, 9/2/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 14/3/2018, 14/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 9/4/2018, 9/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 25/4/2018, 25/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 30/5/2018, 30/5/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 15/6/2018, 15/6/2018, False, 11:05 AM, 11:30 AM,
+PE, 9/8/2017, 9/8/2017, False, 13:45 PM, 15:00 PM, 
+PE, 6/9/2017, 6/9/2017, False, 13:45 PM, 15:00 PM, 
+PE, 22/9/2017, 22/9/2017, False, 13:45 PM, 15:00 PM, 
+PE, 13/10/2017, 13/10/2017, False, 13:45 PM, 15:00 PM, 
+PE, 16/11/2017, 16/11/2017, False, 13:45 PM, 15:00 PM, 
+PE, 5/12/2017, 5/12/2017, False, 13:45 PM, 15:00 PM, 
+PE, 8/1/2018, 8/1/2018, False, 13:45 PM, 15:00 PM, 
+PE, 24/1/2018, 24/1/2018, False, 13:45 PM, 15:00 PM, 
+PE, 9/2/2018, 9/2/2018, False, 13:45 PM, 15:00 PM, 
+PE, 14/3/2018, 14/3/2018, False, 13:45 PM, 15:00 PM, 
+PE, 9/4/2018, 9/4/2018, False, 13:45 PM, 15:00 PM, 
+PE, 25/4/2018, 25/4/2018, False, 13:45 PM, 15:00 PM, 
+PE, 30/5/2018, 30/5/2018, False, 13:45 PM, 15:00 PM, 
+PE, 15/6/2018, 15/6/2018, False, 13:45 PM, 15:00 PM, 
+Science, 9/8/2017, 9/8/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 6/9/2017, 6/9/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 22/9/2017, 22/9/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 13/10/2017, 13/10/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 16/11/2017, 16/11/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 5/12/2017, 5/12/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 8/1/2018, 8/1/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 24/1/2018, 24/1/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 9/2/2018, 9/2/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 14/3/2018, 14/3/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 9/4/2018, 9/4/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 25/4/2018, 25/4/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 30/5/2018, 30/5/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 15/6/2018, 15/6/2018, False, 11:35 AM, 12:50 PM, 505
+Individual and Society, 22/8/2017, 22/8/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 7/9/2017, 7/9/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 25/9/2017, 25/9/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 30/10/2017, 30/10/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 17/11/2017, 17/11/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 6/12/2017, 6/12/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 9/1/2018, 9/1/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 25/1/2018, 25/1/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 12/2/2018, 12/2/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 15/3/2018, 15/3/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 10/4/2018, 10/4/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 26/4/2018, 26/4/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 31/5/2018, 31/5/2018, False, 07:55 AM, 09:15 AM, 524
+Music, 22/8/2017, 22/8/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 7/9/2017, 7/9/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 25/9/2017, 25/9/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 30/10/2017, 30/10/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 17/11/2017, 17/11/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 6/12/2017, 6/12/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 9/1/2018, 9/1/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 25/1/2018, 25/1/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 12/2/2018, 12/2/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 15/3/2018, 15/3/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 10/4/2018, 10/4/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 26/4/2018, 26/4/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 31/5/2018, 31/5/2018, False, 09:20 AM, 10:35 AM, 411
+Com Time, 22/8/2017, 22/8/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 7/9/2017, 7/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 25/9/2017, 25/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 30/10/2017, 30/10/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 17/11/2017, 17/11/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 6/12/2017, 6/12/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 9/1/2018, 9/1/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 25/1/2018, 25/1/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 12/2/2018, 12/2/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 15/3/2018, 15/3/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 10/4/2018, 10/4/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 26/4/2018, 26/4/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 31/5/2018, 31/5/2018, False, 11:05 AM, 11:30 AM,
+English, 22/8/2017, 22/8/2017, False, 13:45 PM, 15:00 PM, 524
+English, 7/9/2017, 7/9/2017, False, 13:45 PM, 15:00 PM, 524
+English, 25/9/2017, 25/9/2017, False, 13:45 PM, 15:00 PM, 524
+English, 30/10/2017, 30/10/2017, False, 13:45 PM, 15:00 PM, 524
+English, 17/11/2017, 17/11/2017, False, 13:45 PM, 15:00 PM, 524
+English, 6/12/2017, 6/12/2017, False, 13:45 PM, 15:00 PM, 524
+English, 9/1/2018, 9/1/2018, False, 13:45 PM, 15:00 PM, 524
+English, 25/1/2018, 25/1/2018, False, 13:45 PM, 15:00 PM, 524
+English, 12/2/2018, 12/2/2018, False, 13:45 PM, 15:00 PM, 524
+English, 15/3/2018, 15/3/2018, False, 13:45 PM, 15:00 PM, 524
+English, 10/4/2018, 10/4/2018, False, 13:45 PM, 15:00 PM, 524
+English, 26/4/2018, 26/4/2018, False, 13:45 PM, 15:00 PM, 524
+English, 31/5/2018, 31/5/2018, False, 13:45 PM, 15:00 PM, 524
+Chinese, 22/8/2017, 22/8/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 7/9/2017, 7/9/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 25/9/2017, 25/9/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 30/10/2017, 30/10/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 17/11/2017, 17/11/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 6/12/2017, 6/12/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 9/1/2018, 9/1/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 25/1/2018, 25/1/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 12/2/2018, 12/2/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 15/3/2018, 15/3/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 10/4/2018, 10/4/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 26/4/2018, 26/4/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 31/5/2018, 31/5/2018, False, 11:35 AM, 12:50 PM, 422
+Science, 23/8/2017, 23/8/2017, False, 07:55 AM, 09:15 AM, 505
+Science, 8/9/2017, 8/9/2017, False, 07:55 AM, 09:15 AM, 505
+Science, 31/10/2017, 31/10/2017, False, 07:55 AM, 09:15 AM, 505
+Science, 20/11/2017, 20/11/2017, False, 07:55 AM, 09:15 AM, 505
+Science, 7/12/2017, 7/12/2017, False, 07:55 AM, 09:15 AM, 505
+Science, 10/1/2018, 10/1/2018, False, 07:55 AM, 09:15 AM, 505
+Science, 26/1/2018, 26/1/2018, False, 07:55 AM, 09:15 AM, 505
+Science, 13/2/2018, 13/2/2018, False, 07:55 AM, 09:15 AM, 505
+Science, 16/3/2018, 16/3/2018, False, 07:55 AM, 09:15 AM, 505
+Science, 11/4/2018, 11/4/2018, False, 07:55 AM, 09:15 AM, 505
+Science, 27/4/2018, 27/4/2018, False, 07:55 AM, 09:15 AM, 505
+Science, 1/6/2018, 1/6/2018, False, 07:55 AM, 09:15 AM, 505
+Digital Design, 23/8/2017, 23/8/2017, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 8/9/2017, 8/9/2017, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 31/10/2017, 31/10/2017, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 20/11/2017, 20/11/2017, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 7/12/2017, 7/12/2017, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 10/1/2018, 10/1/2018, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 26/1/2018, 26/1/2018, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 13/2/2018, 13/2/2018, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 16/3/2018, 16/3/2018, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 11/4/2018, 11/4/2018, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 27/4/2018, 27/4/2018, False, 09:20 AM, 10:35 AM, 513
+Digital Design, 1/6/2018, 1/6/2018, False, 09:20 AM, 10:35 AM, 513
+Advisory, 23/8/2017, 23/8/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 8/9/2017, 8/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 31/10/2017, 31/10/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 20/11/2017, 20/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 7/12/2017, 7/12/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 10/1/2018, 10/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 26/1/2018, 26/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 13/2/2018, 13/2/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 16/3/2018, 16/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 11/4/2018, 11/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 27/4/2018, 27/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 1/6/2018, 1/6/2018, False, 11:05 AM, 11:30 AM,
+Mathematics, 23/8/2017, 23/8/2017, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 8/9/2017, 8/9/2017, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 31/10/2017, 31/10/2017, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 20/11/2017, 20/11/2017, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 7/12/2017, 7/12/2017, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 10/1/2018, 10/1/2018, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 26/1/2018, 26/1/2018, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 13/2/2018, 13/2/2018, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 16/3/2018, 16/3/2018, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 11/4/2018, 11/4/2018, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 27/4/2018, 27/4/2018, False, 13:45 PM, 15:00 PM, 524
+Mathematics, 1/6/2018, 1/6/2018, False, 13:45 PM, 15:00 PM, 524
+PE, 23/8/2017, 23/8/2017, False, 11:35 AM, 12:50 PM, 
+PE, 8/9/2017, 8/9/2017, False, 11:35 AM, 12:50 PM, 
+PE, 31/10/2017, 31/10/2017, False, 11:35 AM, 12:50 PM, 
+PE, 20/11/2017, 20/11/2017, False, 11:35 AM, 12:50 PM, 
+PE, 7/12/2017, 7/12/2017, False, 11:35 AM, 12:50 PM, 
+PE, 10/1/2018, 10/1/2018, False, 11:35 AM, 12:50 PM, 
+PE, 26/1/2018, 26/1/2018, False, 11:35 AM, 12:50 PM, 
+PE, 13/2/2018, 13/2/2018, False, 11:35 AM, 12:50 PM, 
+PE, 16/3/2018, 16/3/2018, False, 11:35 AM, 12:50 PM, 
+PE, 11/4/2018, 11/4/2018, False, 11:35 AM, 12:50 PM, 
+PE, 27/4/2018, 27/4/2018, False, 11:35 AM, 12:50 PM, 
+PE, 1/6/2018, 1/6/2018, False, 11:35 AM, 12:50 PM, 
+Chinese, 24/8/2017, 24/8/2017, False, 07:55 AM, 09:15 AM, 422
+Chinese, 11/9/2017, 11/9/2017, False, 07:55 AM, 09:15 AM, 422
+Chinese, 27/9/2017, 27/9/2017, False, 07:55 AM, 09:15 AM, 422
+Chinese, 1/11/2017, 1/11/2017, False, 07:55 AM, 09:15 AM, 422
+Chinese, 8/12/2017, 8/12/2017, False, 07:55 AM, 09:15 AM, 422
+Chinese, 11/1/2018, 11/1/2018, False, 07:55 AM, 09:15 AM, 422
+Chinese, 29/1/2018, 29/1/2018, False, 07:55 AM, 09:15 AM, 422
+Chinese, 19/3/2018, 19/3/2018, False, 07:55 AM, 09:15 AM, 422
+Chinese, 12/4/2018, 12/4/2018, False, 07:55 AM, 09:15 AM, 422
+Chinese, 30/4/2018, 30/4/2018, False, 07:55 AM, 09:15 AM, 422
+Chinese, 4/6/2018, 4/6/2018, False, 07:55 AM, 09:15 AM, 422
+Individual and Society, 24/8/2017, 24/8/2017, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 11/9/2017, 11/9/2017, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 27/9/2017, 27/9/2017, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 1/11/2017, 1/11/2017, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 8/12/2017, 8/12/2017, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 11/1/2018, 11/1/2018, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 29/1/2018, 29/1/2018, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 19/3/2018, 19/3/2018, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 12/4/2018, 12/4/2018, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 30/4/2018, 30/4/2018, False, 09:20 AM, 10:35 AM, 524
+Individual and Society, 4/6/2018, 4/6/2018, False, 09:20 AM, 10:35 AM, 524
+Advisory, 24/8/2017, 24/8/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 11/9/2017, 11/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 27/9/2017, 27/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 1/11/2017, 1/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 8/12/2017, 8/12/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 11/1/2018, 11/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 29/1/2018, 29/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 19/3/2018, 19/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 12/4/2018, 12/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 30/4/2018, 30/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 4/6/2018, 4/6/2018, False, 11:05 AM, 11:30 AM,
+Music, 24/8/2017, 24/8/2017, False, 13:45 PM, 15:00 PM, 411
+Music, 11/9/2017, 11/9/2017, False, 13:45 PM, 15:00 PM, 411
+Music, 27/9/2017, 27/9/2017, False, 13:45 PM, 15:00 PM, 411
+Music, 1/11/2017, 1/11/2017, False, 13:45 PM, 15:00 PM, 411
+Music, 8/12/2017, 8/12/2017, False, 13:45 PM, 15:00 PM, 411
+Music, 11/1/2018, 11/1/2018, False, 13:45 PM, 15:00 PM, 411
+Music, 29/1/2018, 29/1/2018, False, 13:45 PM, 15:00 PM, 411
+Music, 19/3/2018, 19/3/2018, False, 13:45 PM, 15:00 PM, 411
+Music, 12/4/2018, 12/4/2018, False, 13:45 PM, 15:00 PM, 411
+Music, 30/4/2018, 30/4/2018, False, 13:45 PM, 15:00 PM, 411
+Music, 4/6/2018, 4/6/2018, False, 13:45 PM, 15:00 PM, 411
+English, 24/8/2017, 24/8/2017, False, 11:35 AM, 12:50 PM, 524
+English, 11/9/2017, 11/9/2017, False, 11:35 AM, 12:50 PM, 524
+English, 27/9/2017, 27/9/2017, False, 11:35 AM, 12:50 PM, 524
+English, 1/11/2017, 1/11/2017, False, 11:35 AM, 12:50 PM, 524
+English, 8/12/2017, 8/12/2017, False, 11:35 AM, 12:50 PM, 524
+English, 11/1/2018, 11/1/2018, False, 11:35 AM, 12:50 PM, 524
+English, 29/1/2018, 29/1/2018, False, 11:35 AM, 12:50 PM, 524
+English, 19/3/2018, 19/3/2018, False, 11:35 AM, 12:50 PM, 524
+English, 12/4/2018, 12/4/2018, False, 11:35 AM, 12:50 PM, 524
+English, 30/4/2018, 30/4/2018, False, 11:35 AM, 12:50 PM, 524
+English, 4/6/2018, 4/6/2018, False, 11:35 AM, 12:50 PM, 524
+English X, 25/8/2017, 25/8/2017, False, 07:55 AM, 09:15 AM, 226
+English X, 28/9/2017, 28/9/2017, False, 07:55 AM, 09:15 AM, 226
+English X, 29/9/2017, 29/9/2017, False, 07:55 AM, 09:15 AM, 226
+English X, 2/11/2017, 2/11/2017, False, 07:55 AM, 09:15 AM, 226
+English X, 22/11/2017, 22/11/2017, False, 07:55 AM, 09:15 AM, 226
+English X, 11/12/2017, 11/12/2017, False, 07:55 AM, 09:15 AM, 226
+English X, 12/1/2018, 12/1/2018, False, 07:55 AM, 09:15 AM, 226
+English X, 28/2/2018, 28/2/2018, False, 07:55 AM, 09:15 AM, 226
+English X, 2/5/2018, 2/5/2018, False, 07:55 AM, 09:15 AM, 226
+English X, 5/6/2018, 5/6/2018, False, 07:55 AM, 09:15 AM, 226
+Science, 25/8/2017, 25/8/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 28/9/2017, 28/9/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 29/9/2017, 29/9/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 2/11/2017, 2/11/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 22/11/2017, 22/11/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 11/12/2017, 11/12/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 12/1/2018, 12/1/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 28/2/2018, 28/2/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 2/5/2018, 2/5/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 5/6/2018, 5/6/2018, False, 09:20 AM, 10:35 AM, 505
+Com Time, 25/8/2017, 25/8/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 28/9/2017, 28/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 29/9/2017, 29/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 2/11/2017, 2/11/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 22/11/2017, 22/11/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 11/12/2017, 11/12/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 12/1/2018, 12/1/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 28/2/2018, 28/2/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 2/5/2018, 2/5/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 5/6/2018, 5/6/2018, False, 11:05 AM, 11:30 AM,
+Digital Design, 25/8/2017, 25/8/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 28/9/2017, 28/9/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 29/9/2017, 29/9/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 2/11/2017, 2/11/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 22/11/2017, 22/11/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 11/12/2017, 11/12/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 12/1/2018, 12/1/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 28/2/2018, 28/2/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 2/5/2018, 2/5/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 5/6/2018, 5/6/2018, False, 13:45 PM, 15:00 PM, 513
+Mathematics, 25/8/2017, 25/8/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 28/9/2017, 28/9/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 29/9/2017, 29/9/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 2/11/2017, 2/11/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 22/11/2017, 22/11/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 11/12/2017, 11/12/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 12/1/2018, 12/1/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 28/2/2018, 28/2/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 2/5/2018, 2/5/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 5/6/2018, 5/6/2018, False, 11:35 AM, 12:50 PM, 524
+English, 28/8/2017, 28/8/2017, False, 07:55 AM, 09:15 AM, 524
+English, 13/9/2017, 13/9/2017, False, 07:55 AM, 09:15 AM, 524
+English, 3/11/2017, 3/11/2017, False, 07:55 AM, 09:15 AM, 524
+English, 23/11/2017, 23/11/2017, False, 07:55 AM, 09:15 AM, 524
+English, 15/1/2018, 15/1/2018, False, 07:55 AM, 09:15 AM, 524
+English, 31/1/2018, 31/1/2018, False, 07:55 AM, 09:15 AM, 524
+English, 1/3/2018, 1/3/2018, False, 07:55 AM, 09:15 AM, 524
+English, 21/3/2018, 21/3/2018, False, 07:55 AM, 09:15 AM, 524
+English, 16/4/2018, 16/4/2018, False, 07:55 AM, 09:15 AM, 524
+English, 3/5/2018, 3/5/2018, False, 07:55 AM, 09:15 AM, 524
+English, 6/6/2018, 6/6/2018, False, 07:55 AM, 09:15 AM, 524
+Chinese, 28/8/2017, 28/8/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 13/9/2017, 13/9/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 3/11/2017, 3/11/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 23/11/2017, 23/11/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 15/1/2018, 15/1/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 31/1/2018, 31/1/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 1/3/2018, 1/3/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 21/3/2018, 21/3/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 16/4/2018, 16/4/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 3/5/2018, 3/5/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 6/6/2018, 6/6/2018, False, 09:20 AM, 10:35 AM, 422
+Advisory, 28/8/2017, 28/8/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 13/9/2017, 13/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 3/11/2017, 3/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 23/11/2017, 23/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 15/1/2018, 15/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 31/1/2018, 31/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 1/3/2018, 1/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 21/3/2018, 21/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 16/4/2018, 16/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 3/5/2018, 3/5/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 6/6/2018, 6/6/2018, False, 11:05 AM, 11:30 AM,
+Individual and Society, 28/8/2017, 28/8/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 13/9/2017, 13/9/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 3/11/2017, 3/11/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 23/11/2017, 23/11/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 15/1/2018, 15/1/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 31/1/2018, 31/1/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 1/3/2018, 1/3/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 21/3/2018, 21/3/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 16/4/2018, 16/4/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 3/5/2018, 3/5/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 6/6/2018, 6/6/2018, False, 13:45 PM, 15:00 PM, 524
+Music, 28/8/2017, 28/8/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 13/9/2017, 13/9/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 3/11/2017, 3/11/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 23/11/2017, 23/11/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 15/1/2018, 15/1/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 31/1/2018, 31/1/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 1/3/2018, 1/3/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 21/3/2018, 21/3/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 16/4/2018, 16/4/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 3/5/2018, 3/5/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 6/6/2018, 6/6/2018, False, 11:35 AM, 12:50 PM, 411
+Mathematics, 29/8/2017, 29/8/2017, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 14/9/2017, 14/9/2017, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 4/10/2017, 4/10/2017, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 6/11/2017, 6/11/2017, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 24/11/2017, 24/11/2017, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 13/12/2017, 13/12/2017, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 16/1/2018, 16/1/2018, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 1/2/2018, 1/2/2018, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 2/3/2018, 2/3/2018, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 22/3/2018, 22/3/2018, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 4/5/2018, 4/5/2018, False, 07:55 AM, 09:15 AM, 524
+Mathematics, 7/6/2018, 7/6/2018, False, 07:55 AM, 09:15 AM, 524
+PE, 29/8/2017, 29/8/2017, False, 09:20 AM, 10:35 AM, 
+PE, 14/9/2017, 14/9/2017, False, 09:20 AM, 10:35 AM, 
+PE, 4/10/2017, 4/10/2017, False, 09:20 AM, 10:35 AM, 
+PE, 6/11/2017, 6/11/2017, False, 09:20 AM, 10:35 AM, 
+PE, 24/11/2017, 24/11/2017, False, 09:20 AM, 10:35 AM, 
+PE, 13/12/2017, 13/12/2017, False, 09:20 AM, 10:35 AM, 
+PE, 16/1/2018, 16/1/2018, False, 09:20 AM, 10:35 AM, 
+PE, 1/2/2018, 1/2/2018, False, 09:20 AM, 10:35 AM, 
+PE, 2/3/2018, 2/3/2018, False, 09:20 AM, 10:35 AM, 
+PE, 22/3/2018, 22/3/2018, False, 09:20 AM, 10:35 AM, 
+PE, 4/5/2018, 4/5/2018, False, 09:20 AM, 10:35 AM, 
+PE, 7/6/2018, 7/6/2018, False, 09:20 AM, 10:35 AM, 
+Advisory, 29/8/2017, 29/8/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 14/9/2017, 14/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 4/10/2017, 4/10/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 6/11/2017, 6/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 24/11/2017, 24/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 13/12/2017, 13/12/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 16/1/2018, 16/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 1/2/2018, 1/2/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 2/3/2018, 2/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 22/3/2018, 22/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 4/5/2018, 4/5/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 7/6/2018, 7/6/2018, False, 11:05 AM, 11:30 AM,
+Science, 29/8/2017, 29/8/2017, False, 13:45 PM, 15:00 PM, 505
+Science, 14/9/2017, 14/9/2017, False, 13:45 PM, 15:00 PM, 505
+Science, 4/10/2017, 4/10/2017, False, 13:45 PM, 15:00 PM, 505
+Science, 6/11/2017, 6/11/2017, False, 13:45 PM, 15:00 PM, 505
+Science, 24/11/2017, 24/11/2017, False, 13:45 PM, 15:00 PM, 505
+Science, 13/12/2017, 13/12/2017, False, 13:45 PM, 15:00 PM, 505
+Science, 16/1/2018, 16/1/2018, False, 13:45 PM, 15:00 PM, 505
+Science, 1/2/2018, 1/2/2018, False, 13:45 PM, 15:00 PM, 505
+Science, 2/3/2018, 2/3/2018, False, 13:45 PM, 15:00 PM, 505
+Science, 22/3/2018, 22/3/2018, False, 13:45 PM, 15:00 PM, 505
+Science, 4/5/2018, 4/5/2018, False, 13:45 PM, 15:00 PM, 505
+Science, 7/6/2018, 7/6/2018, False, 13:45 PM, 15:00 PM, 505
+Digital Design, 29/8/2017, 29/8/2017, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 14/9/2017, 14/9/2017, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 4/10/2017, 4/10/2017, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 6/11/2017, 6/11/2017, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 24/11/2017, 24/11/2017, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 13/12/2017, 13/12/2017, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 16/1/2018, 16/1/2018, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 1/2/2018, 1/2/2018, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 2/3/2018, 2/3/2018, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 22/3/2018, 22/3/2018, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 4/5/2018, 4/5/2018, False, 11:35 AM, 12:50 PM, 513
+Digital Design, 7/6/2018, 7/6/2018, False, 11:35 AM, 12:50 PM, 513
+Music, 30/8/2017, 30/8/2017, False, 07:55 AM, 09:15 AM, 411
+Music, 15/9/2017, 15/9/2017, False, 07:55 AM, 09:15 AM, 411
+Music, 6/10/2017, 6/10/2017, False, 07:55 AM, 09:15 AM, 411
+Music, 27/11/2017, 27/11/2017, False, 07:55 AM, 09:15 AM, 411
+Music, 14/12/2017, 14/12/2017, False, 07:55 AM, 09:15 AM, 411
+Music, 17/1/2018, 17/1/2018, False, 07:55 AM, 09:15 AM, 411
+Music, 2/2/2018, 2/2/2018, False, 07:55 AM, 09:15 AM, 411
+Music, 5/3/2018, 5/3/2018, False, 07:55 AM, 09:15 AM, 411
+Music, 23/3/2018, 23/3/2018, False, 07:55 AM, 09:15 AM, 411
+Music, 18/4/2018, 18/4/2018, False, 07:55 AM, 09:15 AM, 411
+Music, 21/5/2018, 21/5/2018, False, 07:55 AM, 09:15 AM, 411
+Music, 8/6/2018, 8/6/2018, False, 07:55 AM, 09:15 AM, 411
+English, 30/8/2017, 30/8/2017, False, 09:20 AM, 10:35 AM, 524
+English, 15/9/2017, 15/9/2017, False, 09:20 AM, 10:35 AM, 524
+English, 6/10/2017, 6/10/2017, False, 09:20 AM, 10:35 AM, 524
+English, 27/11/2017, 27/11/2017, False, 09:20 AM, 10:35 AM, 524
+English, 14/12/2017, 14/12/2017, False, 09:20 AM, 10:35 AM, 524
+English, 17/1/2018, 17/1/2018, False, 09:20 AM, 10:35 AM, 524
+English, 2/2/2018, 2/2/2018, False, 09:20 AM, 10:35 AM, 524
+English, 5/3/2018, 5/3/2018, False, 09:20 AM, 10:35 AM, 524
+English, 23/3/2018, 23/3/2018, False, 09:20 AM, 10:35 AM, 524
+English, 18/4/2018, 18/4/2018, False, 09:20 AM, 10:35 AM, 524
+English, 21/5/2018, 21/5/2018, False, 09:20 AM, 10:35 AM, 524
+English, 8/6/2018, 8/6/2018, False, 09:20 AM, 10:35 AM, 524
+Com Time, 30/8/2017, 30/8/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 15/9/2017, 15/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 6/10/2017, 6/10/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 27/11/2017, 27/11/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 14/12/2017, 14/12/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 17/1/2018, 17/1/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 2/2/2018, 2/2/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 5/3/2018, 5/3/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 23/3/2018, 23/3/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 18/4/2018, 18/4/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 21/5/2018, 21/5/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 8/6/2018, 8/6/2018, False, 11:05 AM, 11:30 AM,
+Chinese, 30/8/2017, 30/8/2017, False, 13:45 PM, 15:00 PM, 422
+Chinese, 15/9/2017, 15/9/2017, False, 13:45 PM, 15:00 PM, 422
+Chinese, 6/10/2017, 6/10/2017, False, 13:45 PM, 15:00 PM, 422
+Chinese, 27/11/2017, 27/11/2017, False, 13:45 PM, 15:00 PM, 422
+Chinese, 14/12/2017, 14/12/2017, False, 13:45 PM, 15:00 PM, 422
+Chinese, 17/1/2018, 17/1/2018, False, 13:45 PM, 15:00 PM, 422
+Chinese, 2/2/2018, 2/2/2018, False, 13:45 PM, 15:00 PM, 422
+Chinese, 5/3/2018, 5/3/2018, False, 13:45 PM, 15:00 PM, 422
+Chinese, 23/3/2018, 23/3/2018, False, 13:45 PM, 15:00 PM, 422
+Chinese, 18/4/2018, 18/4/2018, False, 13:45 PM, 15:00 PM, 422
+Chinese, 21/5/2018, 21/5/2018, False, 13:45 PM, 15:00 PM, 422
+Chinese, 8/6/2018, 8/6/2018, False, 13:45 PM, 15:00 PM, 422
+Individual and Society, 30/8/2017, 30/8/2017, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 15/9/2017, 15/9/2017, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 6/10/2017, 6/10/2017, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 27/11/2017, 27/11/2017, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 14/12/2017, 14/12/2017, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 17/1/2018, 17/1/2018, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 2/2/2018, 2/2/2018, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 5/3/2018, 5/3/2018, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 23/3/2018, 23/3/2018, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 18/4/2018, 18/4/2018, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 21/5/2018, 21/5/2018, False, 11:35 AM, 12:50 PM, 524
+Individual and Society, 8/6/2018, 8/6/2018, False, 11:35 AM, 12:50 PM, 524
+Digital Design, 31/8/2017, 31/8/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 18/9/2017, 18/9/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 9/10/2017, 9/10/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 8/11/2017, 8/11/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 28/11/2017, 28/11/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 15/12/2017, 15/12/2017, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 18/1/2018, 18/1/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 5/2/2018, 5/2/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 6/3/2018, 6/3/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 26/3/2018, 26/3/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 19/4/2018, 19/4/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 23/5/2018, 23/5/2018, False, 07:55 AM, 09:15 AM, 513
+Digital Design, 11/6/2018, 11/6/2018, False, 07:55 AM, 09:15 AM, 513
+Mathematics, 31/8/2017, 31/8/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 18/9/2017, 18/9/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 9/10/2017, 9/10/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 8/11/2017, 8/11/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 28/11/2017, 28/11/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 15/12/2017, 15/12/2017, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 18/1/2018, 18/1/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 5/2/2018, 5/2/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 6/3/2018, 6/3/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 26/3/2018, 26/3/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 19/4/2018, 19/4/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 23/5/2018, 23/5/2018, False, 09:20 AM, 10:35 AM, 524
+Mathematics, 11/6/2018, 11/6/2018, False, 09:20 AM, 10:35 AM, 524
+Advisory, 31/8/2017, 31/8/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 18/9/2017, 18/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 9/10/2017, 9/10/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 8/11/2017, 8/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 28/11/2017, 28/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 15/12/2017, 15/12/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 18/1/2018, 18/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 5/2/2018, 5/2/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 6/3/2018, 6/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 26/3/2018, 26/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 19/4/2018, 19/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 23/5/2018, 23/5/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 11/6/2018, 11/6/2018, False, 11:05 AM, 11:30 AM,
+PE, 31/8/2017, 31/8/2017, False, 13:45 PM, 15:00 PM, 
+PE, 18/9/2017, 18/9/2017, False, 13:45 PM, 15:00 PM, 
+PE, 9/10/2017, 9/10/2017, False, 13:45 PM, 15:00 PM, 
+PE, 8/11/2017, 8/11/2017, False, 13:45 PM, 15:00 PM, 
+PE, 28/11/2017, 28/11/2017, False, 13:45 PM, 15:00 PM, 
+PE, 15/12/2017, 15/12/2017, False, 13:45 PM, 15:00 PM, 
+PE, 18/1/2018, 18/1/2018, False, 13:45 PM, 15:00 PM, 
+PE, 5/2/2018, 5/2/2018, False, 13:45 PM, 15:00 PM, 
+PE, 6/3/2018, 6/3/2018, False, 13:45 PM, 15:00 PM, 
+PE, 26/3/2018, 26/3/2018, False, 13:45 PM, 15:00 PM, 
+PE, 19/4/2018, 19/4/2018, False, 13:45 PM, 15:00 PM, 
+PE, 23/5/2018, 23/5/2018, False, 13:45 PM, 15:00 PM, 
+PE, 11/6/2018, 11/6/2018, False, 13:45 PM, 15:00 PM, 
+Science, 31/8/2017, 31/8/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 18/9/2017, 18/9/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 9/10/2017, 9/10/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 8/11/2017, 8/11/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 28/11/2017, 28/11/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 15/12/2017, 15/12/2017, False, 11:35 AM, 12:50 PM, 505
+Science, 18/1/2018, 18/1/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 5/2/2018, 5/2/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 6/3/2018, 6/3/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 26/3/2018, 26/3/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 19/4/2018, 19/4/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 23/5/2018, 23/5/2018, False, 11:35 AM, 12:50 PM, 505
+Science, 11/6/2018, 11/6/2018, False, 11:35 AM, 12:50 PM, 505
+Individual and Society, 1/9/2017, 1/9/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 13/11/2017, 13/11/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 29/11/2017, 29/11/2017, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 3/1/2018, 3/1/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 19/1/2018, 19/1/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 6/2/2018, 6/2/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 7/3/2018, 7/3/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 27/3/2018, 27/3/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 20/4/2018, 20/4/2018, False, 07:55 AM, 09:15 AM, 524
+Individual and Society, 24/5/2018, 24/5/2018, False, 07:55 AM, 09:15 AM, 524
+Music, 1/9/2017, 1/9/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 13/11/2017, 13/11/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 29/11/2017, 29/11/2017, False, 09:20 AM, 10:35 AM, 411
+Music, 3/1/2018, 3/1/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 19/1/2018, 19/1/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 6/2/2018, 6/2/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 7/3/2018, 7/3/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 27/3/2018, 27/3/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 20/4/2018, 20/4/2018, False, 09:20 AM, 10:35 AM, 411
+Music, 24/5/2018, 24/5/2018, False, 09:20 AM, 10:35 AM, 411
+Advisory, 1/9/2017, 1/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 13/11/2017, 13/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 29/11/2017, 29/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 3/1/2018, 3/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 19/1/2018, 19/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 6/2/2018, 6/2/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 7/3/2018, 7/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 27/3/2018, 27/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 20/4/2018, 20/4/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 24/5/2018, 24/5/2018, False, 11:05 AM, 11:30 AM,
+English, 1/9/2017, 1/9/2017, False, 13:45 PM, 15:00 PM, 524
+English, 13/11/2017, 13/11/2017, False, 13:45 PM, 15:00 PM, 524
+English, 29/11/2017, 29/11/2017, False, 13:45 PM, 15:00 PM, 524
+English, 3/1/2018, 3/1/2018, False, 13:45 PM, 15:00 PM, 524
+English, 19/1/2018, 19/1/2018, False, 13:45 PM, 15:00 PM, 524
+English, 6/2/2018, 6/2/2018, False, 13:45 PM, 15:00 PM, 524
+English, 7/3/2018, 7/3/2018, False, 13:45 PM, 15:00 PM, 524
+English, 27/3/2018, 27/3/2018, False, 13:45 PM, 15:00 PM, 524
+English, 20/4/2018, 20/4/2018, False, 13:45 PM, 15:00 PM, 524
+English, 24/5/2018, 24/5/2018, False, 13:45 PM, 15:00 PM, 524
+Chinese, 1/9/2017, 1/9/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 13/11/2017, 13/11/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 29/11/2017, 29/11/2017, False, 11:35 AM, 12:50 PM, 422
+Chinese, 3/1/2018, 3/1/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 19/1/2018, 19/1/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 6/2/2018, 6/2/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 7/3/2018, 7/3/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 27/3/2018, 27/3/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 20/4/2018, 20/4/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese, 24/5/2018, 24/5/2018, False, 11:35 AM, 12:50 PM, 422
+Chinese X, 4/9/2017, 4/9/2017, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 20/9/2017, 20/9/2017, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 11/10/2017, 11/10/2017, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 30/11/2017, 30/11/2017, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 4/1/2018, 4/1/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 22/1/2018, 22/1/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 7/2/2018, 7/2/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 8/3/2018, 8/3/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 28/3/2018, 28/3/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 23/4/2018, 23/4/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 28/5/2018, 28/5/2018, False, 07:55 AM, 09:15 AM, 512
+Chinese X, 13/6/2018, 13/6/2018, False, 07:55 AM, 09:15 AM, 512
+Science, 4/9/2017, 4/9/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 20/9/2017, 20/9/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 11/10/2017, 11/10/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 30/11/2017, 30/11/2017, False, 09:20 AM, 10:35 AM, 505
+Science, 4/1/2018, 4/1/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 22/1/2018, 22/1/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 7/2/2018, 7/2/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 8/3/2018, 8/3/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 28/3/2018, 28/3/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 23/4/2018, 23/4/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 28/5/2018, 28/5/2018, False, 09:20 AM, 10:35 AM, 505
+Science, 13/6/2018, 13/6/2018, False, 09:20 AM, 10:35 AM, 505
+Com Time, 4/9/2017, 4/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 20/9/2017, 20/9/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 11/10/2017, 11/10/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 30/11/2017, 30/11/2017, False, 11:05 AM, 11:30 AM,
+Com Time, 4/1/2018, 4/1/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 22/1/2018, 22/1/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 7/2/2018, 7/2/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 8/3/2018, 8/3/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 28/3/2018, 28/3/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 23/4/2018, 23/4/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 28/5/2018, 28/5/2018, False, 11:05 AM, 11:30 AM,
+Com Time, 13/6/2018, 13/6/2018, False, 11:05 AM, 11:30 AM,
+Digital Design, 4/9/2017, 4/9/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 20/9/2017, 20/9/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 11/10/2017, 11/10/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 30/11/2017, 30/11/2017, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 4/1/2018, 4/1/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 22/1/2018, 22/1/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 7/2/2018, 7/2/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 8/3/2018, 8/3/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 28/3/2018, 28/3/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 23/4/2018, 23/4/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 28/5/2018, 28/5/2018, False, 13:45 PM, 15:00 PM, 513
+Digital Design, 13/6/2018, 13/6/2018, False, 13:45 PM, 15:00 PM, 513
+Mathematics, 4/9/2017, 4/9/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 20/9/2017, 20/9/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 11/10/2017, 11/10/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 30/11/2017, 30/11/2017, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 4/1/2018, 4/1/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 22/1/2018, 22/1/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 7/2/2018, 7/2/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 8/3/2018, 8/3/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 28/3/2018, 28/3/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 23/4/2018, 23/4/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 28/5/2018, 28/5/2018, False, 11:35 AM, 12:50 PM, 524
+Mathematics, 13/6/2018, 13/6/2018, False, 11:35 AM, 12:50 PM, 524
+English, 21/9/2017, 21/9/2017, False, 07:55 AM, 09:15 AM, 524
+English, 12/10/2017, 12/10/2017, False, 07:55 AM, 09:15 AM, 524
+English, 15/11/2017, 15/11/2017, False, 07:55 AM, 09:15 AM, 524
+English, 4/12/2017, 4/12/2017, False, 07:55 AM, 09:15 AM, 524
+English, 5/1/2018, 5/1/2018, False, 07:55 AM, 09:15 AM, 524
+English, 8/2/2018, 8/2/2018, False, 07:55 AM, 09:15 AM, 524
+English, 29/3/2018, 29/3/2018, False, 07:55 AM, 09:15 AM, 524
+English, 29/5/2018, 29/5/2018, False, 07:55 AM, 09:15 AM, 524
+English, 14/6/2018, 14/6/2018, False, 07:55 AM, 09:15 AM, 524
+Chinese, 21/9/2017, 21/9/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 12/10/2017, 12/10/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 15/11/2017, 15/11/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 4/12/2017, 4/12/2017, False, 09:20 AM, 10:35 AM, 422
+Chinese, 5/1/2018, 5/1/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 8/2/2018, 8/2/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 29/3/2018, 29/3/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 29/5/2018, 29/5/2018, False, 09:20 AM, 10:35 AM, 422
+Chinese, 14/6/2018, 14/6/2018, False, 09:20 AM, 10:35 AM, 422
+Advisory, 21/9/2017, 21/9/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 12/10/2017, 12/10/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 15/11/2017, 15/11/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 4/12/2017, 4/12/2017, False, 11:05 AM, 11:30 AM,
+Advisory, 5/1/2018, 5/1/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 8/2/2018, 8/2/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 29/3/2018, 29/3/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 29/5/2018, 29/5/2018, False, 11:05 AM, 11:30 AM,
+Advisory, 14/6/2018, 14/6/2018, False, 11:05 AM, 11:30 AM,
+Individual and Society, 21/9/2017, 21/9/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 12/10/2017, 12/10/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 15/11/2017, 15/11/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 4/12/2017, 4/12/2017, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 5/1/2018, 5/1/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 8/2/2018, 8/2/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 29/3/2018, 29/3/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 29/5/2018, 29/5/2018, False, 13:45 PM, 15:00 PM, 524
+Individual and Society, 14/6/2018, 14/6/2018, False, 13:45 PM, 15:00 PM, 524
+Music, 21/9/2017, 21/9/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 12/10/2017, 12/10/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 15/11/2017, 15/11/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 4/12/2017, 4/12/2017, False, 11:35 AM, 12:50 PM, 411
+Music, 5/1/2018, 5/1/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 8/2/2018, 8/2/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 29/3/2018, 29/3/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 29/5/2018, 29/5/2018, False, 11:35 AM, 12:50 PM, 411
+Music, 14/6/2018, 14/6/2018, False, 11:35 AM, 12:50 PM, 411

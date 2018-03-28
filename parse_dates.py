@@ -44,7 +44,7 @@ def ending_time(n):
     else: return '15:00 PM'
 
 with open('desired_output.csv', 'w') as fout:
-    fout.write('Subject, Start Date, All Day Event, Start Time, End Time, Location\n')
+    fout.write('Subject, Start Date, End Date, All Day Event, Start Time, End Time, Location\n')
     date_rows = parsed_contents.select("tbody tr")[14:]
 
     date_rows = map(lambda row: list(map(lambda x: x.string.strip(), row.select("td span"))), date_rows)
@@ -61,15 +61,17 @@ with open('desired_output.csv', 'w') as fout:
 
     dates = [[], [], [], [], [], [], [], [], [], [], [], []]
 
+    # day cycle events
     for t in output:
         array = t.split()
         month = months.index(array[2]) + 1
-        date_string = '%s/%s/%s' % (array[1], months.index(array[2]) + 1, [2017, 2018][month <= 7])
-        fout.write('%s, %s, %s,,,\n' % (output[t], date_string, True))
+        date_string = '{}/{}/{}'.format(array[1], months.index(array[2]) + 1, [2017, 2018][month <= 7])
+        fout.write('{}, {}, {}, {},,,\n'.format(output[t], date_string, date_string,True))
         dates[date_slot.index(output[t])].append(str(date_string))
 
     array = ["A1", "A2", "A3", "A4", "A5", "A6", "B1", "B2", "B3", "B4", "B5", "B6"]
 
+    # class events
     date_rows = parsed_contents.select("tbody tr")[2:14:]
     for t in (date_rows):
         original = t.select('td')
@@ -83,13 +85,13 @@ with open('desired_output.csv', 'w') as fout:
             if len(dates) > number:
                 date = dates[number]
                 for u in date:
-                    # Subject, Start Date, All Day Event, Start Time, End Time
+                    # Subject, Start Date, End Date, All Day Event, Start Time, End Time
                     if 'Com Time' in classes[0]:
-                        fout.write('Com Time, %s, False, 11:05 AM, 11:30 AM,\n' % (u))
+                        fout.write('Com Time, {0}, {1}, False, 11:05 AM, 11:30 AM,\n'.format(u, u))
                     elif len(classes[0]) == 4:
-                        fout.write('Advisory, %s, False, 11:05 AM, 11:30 AM,\n' % (u))
+                        fout.write('Advisory, {0}, {1}, False, 11:05 AM, 11:30 AM,\n'.format(u, u))
                     else:
                         current_class = classes[0].split()[1] if classes[0].split()[2] != 'X' else classes[0].split()[1] + ' ' + classes[0].split()[2]
                         current_class = repl(current_class)
                         period = index + 1
-                        fout.write('%s, %s, False, %s, %s, %s\n' % (current_class, u, starting_time(period), ending_time(period), classes[2] if current_class != 'PE' else ''))
+                        fout.write('{}, {}, {}, False, {}, {}, {}\n'.format(current_class, u, u, starting_time(period), ending_time(period), classes[2] if current_class != 'PE' else ''))
