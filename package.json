@@ -9,8 +9,10 @@
   "author": "Daniel <hsing.daniel@gmail.com> (http://arthelon.github.io)",
   "license": "MIT",
   "dependencies": {
+    "dateformat": "^3.0.3",
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
+    "node-html-parser": "^1.1.6",
     "nodemon": "^1.14.11",
     "puppeteer": "^1.0.0"
   }
